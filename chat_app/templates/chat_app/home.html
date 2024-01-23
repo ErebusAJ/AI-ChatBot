@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="{% static 'chat_app/style.css' %}">
+</head>
+
+<body>
+    <div class="background-image"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <!-- AI ChatBot -->
+        <div class="ai-chatbot">AI ChatBot</div>
+
+        <a href="#" class="newstand">Newstand</a>
+        <a href="#" class="my-profile">My Profile</a>
+        <button class="cart-button">Login</button>
+        <button class="register-button">Register</button>
+
+    </nav>
+
+    <div class="background-image" style="background: url('{% static 'chat_app/style.css' %}') no-repeat; background-size: cover;"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+
+        body {
+            position: relative;
+            width: 1440px;
+            height: 1024px;
+            background: #FFFFFF;
+            margin: 0 auto; /* Center the content */
+        }
+
+        /* ai-concept-vector-1716936927 1 */
+
+        .background-image {
+            position: absolute;
+            width: 1440px;
+            height: 912px;
+            left: 0px;
+            top: 112px;
+            background: url("https://static.vecteezy.com/system/resources/previews/000/622/564/original/ai-concept-vector.jpg") no-repeat;
+            background-size: cover;
+        }
+
+        /* Navigation */
+
+        nav {
+            position: flex;
+            height: 112px;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            background: #020C27;
+        }
+
+        /* AI ChatBot */
+
+        .ai-chatbot {
+            position: absolute;
+            width: 207px;
+            height: 36px;
+            left: 96px;
+            top: 41px;
+            font-family: 'Orbitron', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 100%;
+            letter-spacing: -0.01em;
+            color: #FFFFFF;
+        }
+
+        /* Newstand */
+
+        .newstand {
+            position: absolute;
+            width: 92px;
+            height: 21px;
+            right: 425px;
+            top: 45px;
+            font-family: 'Orbitron', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        /* My profile */
+
+        .my-profile {
+            position: absolute;
+            width: 86px;
+            height: 21px;
+            right: 330px;
+            top: 46px;
+            font-family: 'Orbitron', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        /* Cart button */
+
+        .cart-button {
+            position: absolute;
+            width: 126px;
+            height: 48px;
+            right: 176px;
+            top: 33px;
+            background: #FFFFFF;
+            border-radius: 8px;
+        }
+
+        .register-button {
+            position: absolute;
+            width: 126px;
+            height: 48px;
+            right: 30px;
+            top: 33px;
+            background: #FFFFFF;
+            border-radius: 8px;
+        }
+
+        /* Login */
+
+        .login-button {
+            position: absolute;
+            width: 50px;
+            height: 21px;
+            left: calc(50% - 50px/2);
+            top: calc(50% - 21px/2);
+            font-family: 'Orbitron', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 130%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #020C27;
+        }
+
+        /* Cart button */
+
+        .cart-button-2 {
+            position: absolute;
+            width: 126px;
+            height: 48px;
+            right: 23px;
+            top: 33px;
+            background: #FFFFFF;
+            border-radius: 8px;
+        }
+
+        /* Register */
+
+
