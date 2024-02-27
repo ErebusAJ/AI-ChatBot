@@ -10,9 +10,9 @@ def home(request):
 
 
 # @login_required()
-# openai.api_key = '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'  # Replace with your OpenAI API key
+# openai.api_key = ''  # Replace with your OpenAI API key
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 
 def get_completion(prompt):
