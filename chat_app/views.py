@@ -2,29 +2,33 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
-import openai
+from openai import OpenAI
 
 
 def home(request):
     return render(request, 'chat_app/home.html')
 
 
-openai.api_key = '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'
-
-
 # @login_required()
+# openai.api_key = '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'  # Replace with your OpenAI API key
+
+client = OpenAI(api_key="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")
+
+
 def get_completion(prompt):
     print(prompt)
-    query = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=prompt,
+    query = client.chat.completions.create(
+        model="gpt-3.5-turbo",  # Use the latest engine
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": prompt},
+        ],
         max_tokens=1024,
-        n=1,
         stop=None,
         temperature=0.5,
     )
 
-    response = query.choices[0].text
+    response = query.choices[0].message["content"]
     print(response)
     return response
 
